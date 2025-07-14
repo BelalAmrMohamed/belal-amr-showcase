@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +64,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'section-bg': 'hsl(var(--section-bg))',
+				'text-muted': 'hsl(var(--text-muted))',
+				'skill-bg': 'hsl(var(--skill-bg))',
+				'project-hover': 'hsl(var(--project-hover))'
+			},
+			backgroundImage: {
+				'hero-gradient': 'var(--hero-gradient)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
